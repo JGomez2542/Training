@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:context=".ui.MainActivity">
+
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilContactName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+                android:id="@+id/etContactName"
+                android:inputType="text"
+                android:hint="@string/contact_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilContactRelationship"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+                android:id="@+id/etContactRelationship"
+                android:inputType="text"
+                android:hint="@string/contact_relationship"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilContactPrimaryNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+                android:id="@+id/etContactPrimaryNumber"
+                android:inputType="text"
+                android:hint="@string/contact_primary_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilContactSecondaryNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+                android:id="@+id/etContactSecondaryNumber"
+                android:inputType="text"
+                android:hint="@string/contact_secondary_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+            android:id="@+id/btnInsert"
+            android:textSize="24sp"
+            android:onClick="insertContact"
+            android:text="@string/insert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <TextView
+            android:id="@+id/tvResult"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

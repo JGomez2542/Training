@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:id="@+id/progress1"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="4" />
+
+    <ProgressBar
+        android:id="@+id/progress2"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="4" />
+
+    <ProgressBar
+        android:id="@+id/progress3"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="4" />
+
+    <ProgressBar
+        android:id="@+id/progress4"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="4" />
+
+    <TextView
+        android:id="@+id/tvThread1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvThread2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvThread3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvThread4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnAddCallable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addCallable"
+        android:text="Add Callable" />
+
+    <Button
+        android:id="@+id/btnAddCallableRx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addCallableRx"
+        android:text="Add Callable Rx" />
+
+
+</LinearLayout>

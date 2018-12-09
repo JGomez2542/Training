@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnChangeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doSomething"
+        android:text="@string/do_something" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name" />
+
+    <EditText
+        android:id="@+id/etPersonGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/gender" />
+
+    <Button
+        android:id="@+id/btnGoToSecond"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doSomething"
+        android:text="@string/go_to_second" />
+
+    <Button
+        android:id="@+id/btnShareData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doSomething"
+        android:text="@string/shared_data" />
+
+    <Button
+        android:id="@+id/btnGoToSecondForResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doSomething"
+        android:text="@string/go_to_second_for_result" />
+
+    <Button
+        android:id="@+id/btnSaveToSharedPrefs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="doSomething"
+        android:text="@string/save_to_shared_prefs" />
+
+</LinearLayout>

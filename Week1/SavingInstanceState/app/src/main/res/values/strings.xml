@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SavingInstanceState</string>
+    <string name="do_something">Do something</string>
+    <string name="name">Name</string>
+    <string name="gender">Gender</string>
+    <string name="go_to_second">Go to second</string>
+    <string name="shared_data">Shared Data</string>
+    <string name="go_to_second_for_result">Go to second for result</string>
+    <string name="save_to_shared_prefs">Save to shared prefs</string>
+</resources>
